@@ -1,6 +1,6 @@
 import React from 'react';
 import Svg, { Path, Defs, Stop, LinearGradient } from "react-native-svg"
-import { palette } from '../../global-style';
+import { palette } from '../../GlobalStyle';
 
 export default function TopBar({
     width,

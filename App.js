@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { SafeAreaView, BackHandler, KeyboardAvoidingView } from 'react-native';
 
 import Navigator from './Navigator';
-import globalStyle from './global-style';
+import globalStyle from './GlobalStyle';
 import Service from './GlobalService';
 import SideMenu from './components/side-menu';
 import Home from './screens/home'

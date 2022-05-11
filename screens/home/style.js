@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import GlobalStyle, { palette } from '../../global-style';
+import GlobalStyle, { palette } from '../../GlobalStyle';
 
 export default StyleSheet.create({
     ...GlobalStyle,
