@@ -3,7 +3,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 
 class GlobalService {
-    endpoint = 'http://10.0.0.108:1337';
+    endpoint = 'https://api.openweathermap.org/data/2.5/';
     globalVariables;
 
 

@@ -2,7 +2,6 @@ import React, { useRef } from 'react';
 
 // pages
 import Home from './screens/home';
-import Welcome from './screens/welcome';
 
 class VariableManager {
     _variables = useRef({});
@@ -39,7 +38,6 @@ export default class Navigator {
     _pageStack = ['home'];
 
     pageList = {
-        "welcome": (<Welcome navigator={this} />),
         "home": (<Home navigator={this} />),
     }
 

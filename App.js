@@ -6,7 +6,7 @@ import Navigator from './Navigator';
 import globalStyle from './global-style';
 import Service from './GlobalService';
 import SideMenu from './components/side-menu';
-import Welcome from './screens/welcome'
+import Home from './screens/home'
 
 export default function App() {
 
@@ -25,7 +25,7 @@ export default function App() {
   // const menuContent = <MenuContent navigator={navigatorRef} />
 
   // ** PAGE MANAGER SETUP **
-  const [currentPage, setCurrentPage] = useState(<Welcome navigator={navigatorRef} />);
+  const [currentPage, setCurrentPage] = useState(<Home navigator={navigatorRef} />);
   navigator.screenSet = setCurrentPage;
 
   useEffect(() => {
@@ -54,7 +54,7 @@ export default function App() {
         {currentPage}
       </KeyboardAvoidingView>
       {menuState && <SideMenu active={setMenuState} />}
-      <StatusBar style="auto" />
+      <StatusBar style="light" />
     </SafeAreaView >
   );
 }
