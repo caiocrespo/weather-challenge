@@ -3,6 +3,8 @@ import React, { useRef } from 'react';
 // pages
 import Home from './screens/home';
 
+// main code
+
 class VariableManager {
     _variables = useRef({});
     _constants = useRef({});
